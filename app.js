@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const app = express(); // starting express
 
 // Connecting database 
-const url= "mongodb+srv://Nutika:Nutika123@cluster0.ylwuewe.mongodb.net/?retryWrites=true&w=majority";
+const url= "mongodb+srv://attripratham21:Pratham123@cluster0.vagifaw.mongodb.net/?retryWrites=true&w=majority";
 module.exports = url;
 mongoose.connect(url);
 mongoose.connect(url).then(()=>{
